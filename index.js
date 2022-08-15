@@ -2,8 +2,6 @@ var connection;
 const mongoose = require('mongoose');
 const currencyModel = require('./models/CurrencyModel');
 
-mongoose.set('useFindAndModify', false);
-
 class mongoCurrency {
 
     /**
