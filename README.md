@@ -1,6 +1,7 @@
 # discord-mongo-currency.fork
 A npm package for making economy bots.
 
+> Forked from discord-mongo-currency (https://www.npmjs.com/package/discord-mongo-currency)
 # Installation
 ```npm i discord-mongo-currency.fork```
 
