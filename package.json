@@ -18,7 +18,7 @@
     "mongodb",
     "mongoose"
   ],
-  "author": "Gav",
+  "author": "Gav (Forked by SirRamboia)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Gav-King/discord-mongo-currency/issues"
