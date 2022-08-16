@@ -217,7 +217,7 @@ class mongoCurrency {
         if (!amount) throw new TypeError("Please provide the amount of users to show.");
         if (isNaN(amount)) throw new TypeError("Amount must be a number");
 
-        let users = await currencyModel.find({ guildId: guildId }).sort([['coinsInWallet' + 'coinsInBank', 'descending']]).exec();
+        let users = await currencyModel.find({ guildId: guildId }).sort([['coinsInWallet + coinsInBank', 'descending']]).exec();
 
         return users.slice(0, amount);
     }
