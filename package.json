@@ -1,6 +1,6 @@
 {
   "name": "discord-mongo-currency.better",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A discord.js currency package for MongoDB.",
   "main": "index.js",
   "scripts": {
